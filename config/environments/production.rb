@@ -1,6 +1,8 @@
 EmberCrm::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  config.ember.variant = :development
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
