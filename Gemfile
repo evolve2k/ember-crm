@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+gem 'ffaker'
+gem 'puma'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
