@@ -4,5 +4,5 @@ article#leads
     each lead in controller
       link-to 'lead' lead tagName="li"
         lead.fullName
-x
+        
 outlet
