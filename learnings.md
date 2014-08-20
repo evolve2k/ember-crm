@@ -150,3 +150,5 @@ Action helpers send event requests to the controller if the action is undertaken
 An Ember Controller is an object that stores application state and responds to events from your templates.
 
 A partial helper does nothing but help break up your templates (into separate files) if they get a bit big & unweildy.
+
+LiveReload
