@@ -1,5 +1,8 @@
 article#leads
-	h1 Leads
-	ul
-		each lead in controller
-			li= lead.fullName
+  h1 Leads
+  ul
+    each lead in controller
+      link-to 'lead' lead tagName="li"
+        lead.fullName
+x
+outlet
